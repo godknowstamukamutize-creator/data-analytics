@@ -1,0 +1,53 @@
+1. Before doing any other investigation, list two or three questions 
+that this infographic and explanation of methodology raise in your mind.
+
+Answer:
+a. Does a high number of searches for a food actually mean people are 
+eating it after a breakup, or could they be searching for it for 
+completely unrelated reasons?
+
+b. How did the article choose which foods to include on the list in 
+the first place? Could popular breakup foods have been left out simply 
+because they weren't on the original list?
+
+c. Could the February 2024–2025 date range be affecting the results 
+since February includes Valentine's Day, which might cause unusual 
+search patterns unrelated to breakups?
+
+2.Where can you find Google Trends search data? Provide the URL
+Answer: https://trends.google.com
+
+a. What is the highest peak recorded in the line chart for “Interest over time”?
+Answer: 100
+b. What is the lowest dip recorded?
+Answer: 64
+
+4.
+ 
+At the top next to the box for “Milkshake,” there is a plus sign to add another search
+term. Click the plus sign to add a search for Hamburger (Food).
+
+a)What is the highest peak recorded for searches using Hamburger? What is the
+lowest dip?
+Answer: (i) Highest: 100   (ii) Lowest 71
+b)What happened to the line for Milkshake? What do the high and low look like now?
+
+5.Why did the line for Milkshake change? Hint: Click on the icon next to “Interest over time” for more information about how trend results are displayed
+Answer:Google Trends normalizes data relative to all terms in the comparison. When Hamburger (a much more searched term) is added, Milkshake's relative interest drops significantly. 
+
+6. Add a third term to your search, this time for Breakup (Topic).
+
+a)Do you see any patterns that suggest a relationship between searches for Breakup and Hamburger? There does not appear to be a strong relationship between Breakup and Hamburger searches. Hamburger maintains relatively steady search interest throughout the year, while Breakup shows occasional spikes that do not consistently line up with Hamburger trends.
+Answer: There does not appear to be a strong relationship between Breakup and Hamburger searches. Hamburger maintains relatively steady search interest throughout the year, while Breakup shows occasional spikes that do not consistently line up with Hamburger trends.
+
+b)How about between Breakup and Milkshake?
+Answer: There is also no strong consistent pattern between Breakup and Milkshake searches. Milkshake interest appears relatively flat compared to Breakup, and any spikes in Breakup searches do not clearly correspond to spikes in Milkshake searches, which raises questions about the article's conclusion that milkshakes are the ultimate breakup food.
+
+7: What does all of this suggest about the reliability of the conclusions reached in the article?
+Answer: The investigation raises serious doubts about the reliability of the article's conclusions for several reasons,  The article's conclusions are not very reliable. High search volume for a food does not mean people are eating it after a breakup. Hamburger gets far more searches than Milkshake overall, and Breakup searches don't clearly spike with either food. The results are misleading.
+
+8a)What was the top state by interest for Milkshake?
+Answer: Delaware
+
+b)What was the top state by interest for Hamburger?
+Answer: South Dakota
