@@ -1,0 +1,37 @@
+1. What conclusion can you reach about the responses to this question?
+Answer: Heights are written in many different formats (182cm, 6'8, 5'7", 4'10.5) — hard to compare!
+Excel experience ranges from 0 to 16 years
+Most respondents are students based in Chicago
+Most have a high school education
+
+2. Is the default summary or visualization helpful? How could it be improved?
+Answer: For written responses like height and experience, a simple bar chart wouldn't work well because the formats are inconsistent
+Multiple choice questions like gender or status would be better visualized
+
+3. For questions with an “Other” option, where can you find the actual text of those responses? Do you notice anything that might be tricky about analyzing these?
+Answer: You can find them by clicking individual responses in the survey tool
+They are tricky because people write things differently (e.g. "2 years" vs "2" vs "a couple of months")
+
+4. For questions calling for a written response, what challenges do you notice about finding trends or patterns in the answers provided?
+Answer: Look at the height column some wrote feet, some wrote cm, some used quotes, one wrote "bad data"
+Look at experience "Approximately a year" vs "1" vs "16 years" all mean different things
+
+5. Now that you can see the responses, how might you recommend rephrasing this or question or the response options in a future survey?
+Answer: Height should have a specific format requested (e.g. "in inches only")
+Experience should ask for a number only (e.g. "enter a whole number")
+
+6. Is there anything that surprised you about the survey responses?
+Answer: I was surprised by how different the Excel experience levels were in the class. Some students had 0 experience while one person had 16 years. I was also surprised that most people listed Chicago as their city but a few came from surrounding areas. It was also surprising how inconsistently people answered the height question some used feet, some used centimeters, and one person even wrote bad data for their birthdate.
+
+7. Looking at the responses to questions 1 and 5, are there any ideas you might try to include in your morning routine, or any questions you are also curious about?
+Answer: Looking at the responses, I am curious about what morning routines people with more corporate experience have compared to newer students. I wonder if people who are both students AND 
+employed part-time manage their mornings differently. I might try waking up earlier to have more time to prepare for the day, since balancing work and school seems to be common in this class.
+
+8. Pretend you are the instructor. Is there anything you can learn from this survey to help in how you approach teaching this class?
+Answer: As an instructor, I would notice that Excel experience varies greatly in this class from 0 years to 16 years. This means I should not assume everyone is at the same level. I would plan to start with the basics but also provide extra challenges for students who already have more experience. I would also notice 
+that many students are balancing school with employment, so I should be mindful of giving manageable workloads.
+
+Question 9: Again, pretend you are the instructor. Do you think it was helpful or not helpful to make this survey anonymous? Why or why not?
+Answer: I think making the survey anonymous had both pros and cons.
+Pro: Students may have been more honest about their experience levels and current status if they knew their instructor could not identify them. This gives more accurate data overall.
+Con: Because the survey was anonymous, it is harder to follow up with specific students who might need extra help. For example, if a student has zero Excel experience, the instructor cannot reach out to offer additional support without knowing who that student is. Overall, a partially anonymous survey where names are collected but kept private might have been more useful.
