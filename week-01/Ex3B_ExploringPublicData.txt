@@ -1,0 +1,27 @@
+1. What is data.gov?
+Answer: Data.gov is the official open data website of the U.S. government. It provides free access to datasets published by federal agencies covering topics like health, agriculture, education, and more.
+
+2. How many datasets are listed under Most Viewed?
+Answer: 402,367
+
+3. Human Health category why tagged this way?
+Answer: They were tagged with Human Health because they all contain information that directly relates to the physical health and wellbeing of people.
+
+4: How can you navigate to additional USDA datasets?
+Answer: On the Food Price Outlook catalog page, you can click on the publisher name USDA to see all other datasets published by the USDA organization.
+
+5. Datasets by Organization
+Answer: Navigate
+
+6. Search for your city, county, and state. What organizations are returned?
+Answer: No organization found for Mckinney
+
+7: Search for USDA food composition vs nutrition
+Answer:When searching for "food composition" the top three results are all about nutrition information. When I changed the search to "nutrition" the results changed and showed different datasets. This shows that the same type of data can be labeled with different terminology, making it tricky to find what you are looking for without trying multiple search terms.
+
+8a. Search for butter on Food Data Central
+Answer: Searching for butter returned multiple results showing different types of butter (salted, unsalted, whipped). Clicking on a result shows detailed nutrition information including calories, fat, protein, vitamins and minerals per serving.
+
+8b. Foundation Foods Downloads page
+Answer: The downloads page offers data files in CSV and JSON formats. The files vary in size — some are several megabytes. More information about the data types available can be found in the documentation link on the same page.
+
