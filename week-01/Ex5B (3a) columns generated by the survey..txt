@@ -1,0 +1,4 @@
+The first three columns are: 
+- ID: A unique identifier for each response 
+- Start time: When the person began the survey 
+- Completion time: When the person finished the survey The ID column was included so each response can be uniquely identified, even if two people gave identical answers.
