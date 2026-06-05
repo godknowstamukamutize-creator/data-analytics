@@ -1,0 +1,367 @@
+Categories
+CategoryID
+Represents: Unique category identifier
+Primary Key: Yes
+Foreign Key: No
+Keep: Yes
+Better Name: CategoryID
+Data Type: Whole Number
+Calculations: Count Categories
+
+CategoryName
+Represents: Product category name
+Primary Key: No
+Foreign Key: No
+Keep: Yes
+Better Name: Category
+Data Type: Text
+Calculations: Group sales by category
+
+Description
+Represents: Category description
+Primary Key: No
+Foreign Key: No
+Keep: No
+Better Name: Category Description
+Data Type: Text
+Calculations: None
+
+Picture
+Represents: Category image
+Primary Key: No
+Foreign Key: No
+Keep: No
+Better Name: Category Picture
+Data Type: Binary
+Calculations: None
+
+Customers
+CustomerID
+Represents: Unique customer identifier
+Primary Key: Yes
+Foreign Key: No
+Keep: Yes
+Data Type: Text
+Calculations: Count Customers
+
+CompanyName
+Represents: Customer company name
+Primary Key: No
+Foreign Key: No
+Keep: Yes
+Better Name: Customer
+Data Type: Text
+Calculations: Sales by Customer
+
+ContactName
+Represents: Customer contact person
+Keep: No
+Data Type: Text
+
+ContactTitle
+Represents: Contact job title
+Keep: No
+Data Type: Text
+
+Address
+Represents: Street address
+Keep: No
+Data Type: Text
+
+City
+Represents: Customer city
+Keep: Yes
+Better Name: Customer City
+Data Type: Text
+Calculations: Sales by City
+
+Region
+Represents: State/Province
+Keep: Yes
+Better Name: Customer Region
+Data Type: Text
+
+PostalCode
+Represents: Zip code
+Keep: Yes
+Better Name: Customer Postal Code
+Data Type: Text
+
+Country
+Represents: Customer country
+Keep: Yes
+Better Name: Customer Country
+Data Type: Text
+
+Phone
+Represents: Customer phone
+Keep: No
+Fax
+Represents: Customer fax
+Keep: No
+
+Employees
+EmployeeID
+Represents: Employee identifier
+Primary Key: Yes
+Keep: Yes
+
+LastName
+Represents: Employee last name
+Keep: Yes
+FirstName
+Represents: Employee first name
+Keep: Yes
+
+Title
+Represents: Job title
+Keep: Yes
+
+BirthDate
+Represents: Date of birth
+Keep: Yes
+Data Type: Date
+Calculations: Employee Age
+
+HireDate
+Represents: Hire date
+Keep: Yes
+Calculations: Years of Service
+
+Address
+Keep: No
+
+City
+Keep: Yes
+Better Name: Employee City
+
+Region
+Keep: Yes
+Better Name: Employee Region
+
+PostalCode
+Keep: Yes
+Country
+Keep: Yes
+
+HomePhone
+Keep: No
+Extension
+Keep: No
+
+Photo
+Keep: No
+
+Notes
+Keep: No
+
+ReportsTo
+Represents: Manager EmployeeID
+Foreign Key: Yes
+Keep: Yes
+
+Suppliers
+SupplierID
+Primary Key: Yes
+Keep: Yes
+
+CompanyName
+Keep: Yes
+Better Name: Supplier
+
+ContactName
+Keep: No
+
+ContactTitle
+Keep: No
+
+Address
+Keep: No
+City
+
+Keep: Yes
+Better Name: Supplier City
+Region
+
+Keep: Yes
+PostalCode
+Keep: Yes
+
+Country
+Keep: Yes
+
+Phone
+Keep: No
+
+Fax
+Keep: No
+
+HomePage
+Keep: No
+
+Products
+ProductID
+Primary Key: Yes
+Keep: Yes
+
+ProductName
+Keep: Yes
+Better Name: Product
+
+SupplierID
+Foreign Key: Yes
+Keep: Yes
+
+CategoryID
+Foreign Key: Yes
+Keep: Yes
+
+QuantityPerUnit
+Keep: No
+
+UnitPrice
+Keep: Yes
+Better Name: Unit Price Amount
+Format: Currency
+Calculations:
+
+Average Price
+Revenue
+
+UnitsInStock
+Keep: Yes
+Calculations:
+Total Inventory
+
+UnitsOnOrder
+Keep: Yes
+ReorderLevel
+Keep: Yes
+Discontinued
+Keep: Yes
+Data Type: Boolean
+
+Orders
+OrderID
+Primary Key: Yes
+Keep: Yes
+
+CustomerID
+Foreign Key: Yes
+Keep: Yes
+
+EmployeeID
+Foreign Key: Yes
+Keep: Yes
+
+OrderDate
+Keep: Yes
+Calculations:
+Orders by Month
+Orders by Year
+
+RequiredDate
+Keep: Yes
+
+ShippedDate
+Keep: Yes
+
+ShipVia
+Foreign Key: Yes
+Keep: Yes
+
+Freight
+Keep: Yes
+Better Name: Freight Amount
+Format: Currency
+
+ShipName
+Keep: No
+
+ShipAddress
+Keep: No
+
+ShipCity
+Keep: Yes
+
+ShipRegion
+Keep: Yes
+
+ShipPostalCode
+Keep: Yes
+
+ShipCountry
+Keep: Yes
+
+Order Details
+OrderID
+Foreign Key: Yes
+Part of Composite PK
+Keep: Yes
+
+ProductID
+Foreign Key: Yes
+Part of Composite PK
+Keep: Yes
+
+UnitPrice
+Keep: Yes
+Better Name: Order Unit Price Amount
+Format: Currency
+Quantity
+Keep: Yes
+Format: Whole Number
+
+Discount
+Keep: Yes
+Better Name: Discount Percent
+Format: Percentage
+Calculations
+
+Revenue:
+
+Revenue=UnitPrice×Quantity
+
+Discount Amount:
+
+Discount Amount=UnitPrice×Quantity×Discount
+
+Net Sales:
+
+Net Sales=Revenue−Discount Amount
+
+Shippers
+ShipperID
+Primary Key: Yes
+Keep: Yes
+CompanyName
+Keep: Yes
+Better Name: Shipper
+Phone
+Keep: No
+Region
+RegionID
+Primary Key: Yes
+Keep: Yes
+RegionDescription
+Keep: Yes
+Better Name: Region
+Territories
+TerritoryID
+Primary Key: Yes
+Keep: Yes
+TerritoryDescription
+Keep: Yes
+Better Name: Territory
+RegionID
+Foreign Key: Yes
+Keep: Yes
+EmployeeTerritories
+EmployeeID
+Foreign Key: Yes
+Part of Composite PK
+Keep: Yes
+TerritoryID
+Foreign Key: Yes
+Part of Composite PK
+Keep: Yes
